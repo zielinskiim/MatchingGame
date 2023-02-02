@@ -7,7 +7,7 @@
         mc:Ignorable="d" 
         ResizeMode="NoResize"
         Title="MatchingGame" Height="450" Width="400">
-    <Grid x:Name="mainGrid">
+    <Grid x:Name="mainGrid" MouseDown="TextBlock_MouseDown">
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
